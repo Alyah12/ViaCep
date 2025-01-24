@@ -31,7 +31,7 @@ public class CepCotroller : ControllerBase
             var response = await httpClient.GetAsync($"/ws/{cep}/json/");
 
             response.EnsureSuccessStatusCode();
-            CepDTO json = await response?.Content.ReadFromJsonAsync<CepDTO>();
+            var json = await response?.Content.ReadFromJsonAsync<CepDTO>();
             return Ok(json);
         }
         catch (Exception e)
