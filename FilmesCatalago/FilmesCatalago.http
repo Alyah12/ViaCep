@@ -1,0 +1,7 @@
+@FilmesCatalago_HostAddress = http://localhost:5095
+@cep = variable value
+
+GET {{FilmesCatalago_HostAddress}}/CepCotroller/{{cep}}/
+Accept: application/json
+
+###
