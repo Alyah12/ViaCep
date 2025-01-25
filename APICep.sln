@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmesCatalago", "FilmesCatalago\FilmesCatalago.csproj", "{66E596BE-0369-4215-B85D-CD697B285A92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICep", "APICep\APICep.csproj", "{66E596BE-0369-4215-B85D-CD697B285A92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
